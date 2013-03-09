@@ -1,3 +1,5 @@
+// http://projecteuler.net/problem=2
+
 var sum = 0,
 	last = 1,
 	current = 2;

@@ -1,3 +1,5 @@
+// http://projecteuler.net/problem=4
+
 var _ = require("underscore"),
 	_s = require("underscore.string");
 
