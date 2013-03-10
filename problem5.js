@@ -7,7 +7,7 @@ var start = _.reduce(factors, function(memo, num) { return memo * num; }, 1);
 
 var min = start+1;
 for (var i = start; i > 2520; i-=2520) {
-	var guy = _.reduce(factors, function(memo, f) { return memo = memo && i % f == 0; }, true);
+	var guy = _.reduce(factors, function(memo, f) { return memo && i % f == 0; }, true);
 
 	if (guy && i < min) {
 		min = i;
