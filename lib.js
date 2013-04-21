@@ -1,6 +1,7 @@
 var _ = require("underscore");
 
-exports.factors = function(top) {
+var
+factors = function(top) {
 	var i = 2,
 		factors = [];
 	while (true) {
@@ -19,4 +20,13 @@ exports.factors = function(top) {
 	}
 
 	return factors;
-};
+},
+
+isPrime = function(num) {
+	return factors(num).length == 0;
+}
+
+module.exports = {
+	factors: factors,
+	isPrime: isPrime
+}
