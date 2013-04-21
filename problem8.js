@@ -1,3 +1,5 @@
+// http://projecteuler.net/problem=8
+
 var _ = require("underscore");
 
 var block = 
